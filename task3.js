@@ -3,7 +3,6 @@
 
 const request = require('request');
 const http = require('http');
-const fs   = require('fs');
 const port = 3000;        
 
 let url = 'https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=3';
